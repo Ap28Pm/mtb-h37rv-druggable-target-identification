@@ -1,10 +1,41 @@
-# Python
+
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python environments and secrets
 .venv/
 venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
 
-# Generated databases and intermediate results
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+wheels/
+pip-wheel-metadata/
+
+# Editors and operating-system files
+.DS_Store
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Bioinformatics databases and generated intermediate results
 blastdb/
 blast_results/
 core_accessory/
@@ -12,7 +43,6 @@ proteomes/
 subset_genomes/
 output_faa/
 
-# Temporary files
-*.tmp
-*.log
-.DS_Store
+# Python application secrets
+.streamlit/secrets.toml
+human_proteome.faa
