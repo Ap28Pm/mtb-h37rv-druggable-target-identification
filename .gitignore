@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated databases and intermediate results
+blastdb/
+blast_results/
+core_accessory/
+proteomes/
+subset_genomes/
+output_faa/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
